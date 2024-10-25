@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meie+Script&family=Orelega+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html,
+      body {
+        height: 100vh;
+      }
+      header {
+        background-image: url("https://en.idei.club/uploads/posts/2023-06/1686014701_en-idei-club-p-black-geometric-background-dizain-3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 90%;
+      }
+      nav {
+        padding: 40px 40px 40px 40px;
+        font-family: "Afacad Flux";
+        background-color: whitesmoke;
+        font-size: 20px;
+      }
+      h1 {
+        text-align: center;
+        align-items: center;
+        color: white;
+        font-size: 50px;
+        font-family: "Meie Script";
+      }
+      header h2 {
+        color: lightgray;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-align: center;
+        padding: 1em;
+        font-family: "Afacad Flux";
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+      }
+      ul li {
+        border-bottom: 1px solid goldenrod;
+      }
+      ul li:hover {
+        font-weight: bold;
+        border-color: black;
+      }
+      ul a {
+        text-decoration: none;
+        color: black;
+      }
+      .initial-content {
+        text-align: center;
+        padding-top: 10%;
+      }
+
+      .button-get-started {
+        background-color: goldenrod;
+        font-size: 18px;
+        padding: 1em;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        font-family: "Afacad Flux";
+        text-transform: uppercase;
+      }
+      .button-get-started:hover {
+        background-color: black;
+        color: goldenrod;
+      }
+      .img-logo-lambo {
+        width: 400px;
+      }
+
+      main {
+        background-color: whitesmoke;
+        padding-bottom: 5%;
+      }
+      main {
+        text-align: center;
+      }
+      .header-section-coches {
+        background-color: goldenrod;
+      }
+      #nuestros-coches {
+        color: black;
+        padding: 2rem;
+        font-size: 35px;
+        font-family: "Afacad Flux";
+      }
+      .urus,
+      .aventador,
+      .huracan {
+        box-shadow: 2px 1px 10px -2px #f7f6f6;
+        margin: 5% auto;
+        width: 50%;
+        height: auto;
+      }
+
+      h3 {
+        padding-top: 2rem;
+        font-size: 20px;
+        color: white;
+        font-family: "Afacad Flux";
+      }
+      .section-cars {
+        text-align: center;
+      }
+      .section-cars img {
+        width: 80%;
+      }
+      .section-cars div {
+        height: 400px;
+        background-color: rgb(10, 10, 10);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      footer {
+        background-color: black;
+        color: lightgrey;
+        text-align: center;
+        padding: 30px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#nuestros-coches">Nuestros coches</a></li>
+        <li><a href="">¿Qué ofrecemos?</a></li>
+        <li><a href="">El equipo</a></li>
+        <li><a href="">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="initial-content">
+        <img
+          class="img-logo-lambo"
+          src="      https://fbi.cults3d.com/uploaders/29182030/illustration-file/3d68fb36-b229-4c1e-a621-09d24aaa6476/lamborghini-logo-lamborghini-bull-logo-19.png
+"
+          alt=""
+        />
+        <h1>Welcome to motor paradise</h1>
+        <h2>You can't hide who you are</h2>
+        <button class="button-get-started">Get started</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="header-section-coches">
+        <h2 id="nuestros-coches">Nuestros coches</h2>
+      </div>
+
+      <section class="section-cars">
+        <div class="urus">
+          <h3>Lamborghini Urus</h3>
+          <img
+            src="https://www.pngmart.com/files/22/Lamborghini-Urus-PNG-Image.png"
+            alt=""
+          />
+        </div>
+        <div class="aventador">
+          <h3>Lamborghini Aventador</h3>
+          <img
+            src="https://wallpapers.com/images/hd/yellow-lamborghini-aventador-s-v-f1idwkbbpzloj525.jpg"
+            alt=""
+          />
+        </div>
+        <div class="huracan">
+          <h3>Lamborghini Huracán</h3>
+          <img
+            src="https://www.real-luxury.es/media/tz_portfolio_plus/article/cache/noleggio-lamborghini-huracan-33-1_xl.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+    <footer>Derechos reservados - Copyright 2024</footer>
+  </body>
+</html>
