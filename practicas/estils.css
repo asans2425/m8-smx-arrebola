@@ -1,0 +1,47 @@
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estils per als divs */
+.box {
+    background-color: #4CAF50;
+    color: white;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Diferents mides de div */
+.small {
+    width: 200px;
+    height: 100px;
+}
+
+.medium {
+    width: 50%; /* Utilitza percentatge per ajustar a la meitat del contenidor */
+    height: 150px;
+}
+
+.large {
+    width: 80%;
+    height: 200px;
+}
+
+/* Practica amb margin i padding */
+.container {
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid #ccc;
+}
+

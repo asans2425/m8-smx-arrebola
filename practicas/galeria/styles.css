@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Gallery */
+  .gallery {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .photo-card {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+  }
+  
+  .photo {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .description {
+    margin: 10px 0 0 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Hover Effect */
+  .photo-card:hover {
+    border-color: #007acc;
+    background-color: #f0f8ff;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    font-size: 0.8rem;
+  }
+  
