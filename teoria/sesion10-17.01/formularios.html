@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios </title>
+</head>
+<body>
+	<div class="">
+		<form action="formularios.html" style="text-align:center; margin:auto; width: 25%; display: flex; flex-direction: column;">
+
+			<label for="name">Nombre</label>
+			<input type="text" id="name" name="nombre" required placeholder="Pon aquí tu nombre:">
+
+			<label for="surname">Apellidos</label>
+			<input type="text" id="surname" name="cognoms">
+
+			<label for="email">Correu electrònic</label>
+			<input type="email">
+
+			<!-- <input type="date" name="" id=""> -->
+			<label for="mensaje"></label>
+			<textarea name="mensaje" id="mensaje"></textarea>
+
+			<!-- <input type="radio" id="femenino" name="genero" value="femenino">
+			<label for="femenino">Femenino</label> -->
+
+			<!-- 6. Checkbox (selección múltiple)
+			Permite seleccionar varias opciones. -->
+			<br>
+			<p>Intereses:</p>
+			<input type="checkbox" id="deportes" name="intereses" value="deportes">
+			<label for="deportes">Deportes</label>
+			<input type="checkbox" id="musica" name="intereses" value="musica">
+			<label for="musica">Música</label>
+
+
+			<!-- //seleccion desplegable -->
+			<label for="selecion-genero">Género</label>
+			<select name="gen" id="seleccion-genero">
+			<!-- OPCION 1 -->
+			 <option value="">Selecciona un género</option>
+			<!-- opcin 2 -->
+			 <option value="rap">Rap</option>
+			 <option value="rock">Rock</option>
+			 <option value="blues">Blues</option>
+			 <option value="punk">Punk</option>
+			 <option value="techno">Techno</option>
+			 <option value="trance">Trance</option>
+
+			</select>
+
+			<button type="submit">Enviar</button>
+
+
+
+
+		</form>
+	</div>
+
+<style>
+
+
+ul{
+	display: flex;
+	justify-content: space-between;
+
+}
+ul li{
+	background-color: blue;
+	display: flex;
+	width: 100px;
+	justify-content: center;
+	flex-direction:column;
+	
+	align-items: center;
+	border-radius: 100%;
+	aspect-ratio: 1/1;
+}
+img{
+	width: 32px;
+	
+}
+
+</style>
+
+
+<nav>
+	<ul>
+		<li class="element">
+			<img src="https://cdn-icons-png.flaticon.com/512/786/786205.png" alt="">
+			
+		</li>
+		<a href="buenosiasjavimar">Phone: 12345</a>
+		<li class="element">
+			<img src="https://cdn-icons-png.flaticon.com/512/786/786205.png" alt="">
+		</li><li class="element">
+			<img src="https://cdn-icons-png.flaticon.com/512/786/786205.png" alt="">
+		</li><li class="element">
+			<img src="https://cdn-icons-png.flaticon.com/512/786/786205.png" alt="">
+		</li>
+	</ul>
+</nav>
+
+
+
+</body>
+</html>
